@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> a95e0cf7c593d1c36ca065a739ca028d3b98152e
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,6 +12,7 @@
     android:padding="24dp"
     tools:context=".MainActivity">
 
+<<<<<<< HEAD
     <!-- Welcome Message TextView -->
     <TextView
         android:id="@+id/welcomeText"
@@ -18,22 +24,41 @@
         android:text="@string/msg_welcome"
         android:textAlignment="center"
         android:layout_marginTop="32dp"
+=======
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TitleText"
+        android:text="@string/msg_welcome"
+        android:layout_marginTop="60dp"
+>>>>>>> a95e0cf7c593d1c36ca065a739ca028d3b98152e
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+<<<<<<< HEAD
     <!-- Name Input Field -->
+=======
+>>>>>>> a95e0cf7c593d1c36ca065a739ca028d3b98152e
     <EditText
         android:id="@+id/nameInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="32dp"
         android:hint="@string/hint_enter_name"
         android:inputType="textPersonName"
+=======
+        android:hint="@string/hint_enter_name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="16dp"
+>>>>>>> a95e0cf7c593d1c36ca065a739ca028d3b98152e
         app:layout_constraintTop_toBottomOf="@id/welcomeText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+<<<<<<< HEAD
     <!-- Action Buttons -->
     <LinearLayout
         android:id="@+id/buttonContainer"
@@ -73,3 +98,47 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/nameInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_next_screen"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/saveButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_clear"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/nextButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/goToSecondActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Second Screen"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/clearButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> a95e0cf7c593d1c36ca065a739ca028d3b98152e

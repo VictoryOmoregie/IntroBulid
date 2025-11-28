@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Intro Build</string>
 
     <!-- Strings used in MainActivity -->
@@ -13,3 +14,16 @@
 
 
 </resources>
+=======
+    <string name="app_name">HelloAndroid</string>
+
+    <string name="msg_welcome">Welcome to Hello Android!</string>
+    <string name="hint_enter_name">Enter your name</string>
+
+    <string name="btn_save">Save Name</string>
+    <string name="btn_clear">Clear Data</string>
+
+    <!-- Missing required string -->
+    <string name="btn_next_screen">Next Screen</string>
+</resources>
+>>>>>>> a95e0cf7c593d1c36ca065a739ca028d3b98152e

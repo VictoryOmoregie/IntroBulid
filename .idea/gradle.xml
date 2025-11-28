@@ -6,7 +6,11 @@
       <GradleProjectSettings>
         <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
         <option name="gradleJvm" value="jbr-21" />
+=======
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+>>>>>>> a95e0cf7c593d1c36ca065a739ca028d3b98152e
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -15,6 +19,9 @@
         </option>
       </GradleProjectSettings>
     </option>
+<<<<<<< HEAD
     <option name="offlineMode" value="true" />
+=======
+>>>>>>> a95e0cf7c593d1c36ca065a739ca028d3b98152e
   </component>
 </project>

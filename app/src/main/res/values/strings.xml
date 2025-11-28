@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Intro Build</string>
+
+    <!-- Strings used in MainActivity -->
+    <string name="msg_welcome">Welcome to Hello Android!</string>
+    <string name="hint_enter_name">Enter your name</string>
+    <string name="btn_save">Save Name</string>
+    <string name="btn_clear">Clear Data</string>
+    <string name="btn_next_screen">Next Screen</string>
+
+    <!-- Strings used in SecondActivity -->
+    <string name="second_screen_default">Welcome to the Second Screen!</string>
+
+
+</resources>
